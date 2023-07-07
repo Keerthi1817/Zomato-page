@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.zomato {
+    width: 100%;
+    height: 100vh;
+}
+
+.back {
+    width: 100%;
+    height: 57vh;
+    background: url('/imgg/zom.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.get {
+    width: 6%;
+    height: 25px;
+    position: relative;
+    left: 18%;
+    top: 6%;
+}
+
+.get a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+
+.nav {
+    float: right;
+    padding: 0 20%;
+}
+
+.nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0 11px;
+    letter-spacing: 0.1px;
+    font-family: 'Poppins';
+}
+
+.content {
+    position: relative;
+    left: 15%;
+    top: 11%;
+    width: 70%;
+    height: 45vh;
+    text-align: center;
+    padding-top: 25px 10px;
+}
+
+.content h1 {
+    font-size: 5em;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: bolder;
+    position: relative;
+    left: 28%;
+    top: 2%;
+}
+
+.content p {
+    font-size: 2.5em;
+    color: white;
+    font-family: 'Poppins';
+
+
+}
+
+.phone {
+    height: 39px;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+input {
+    text-align: center;
+}
+
+.place {
+    height: 44px;
+    border-radius: 5px;
+    border-color: transparent;
+    width: 25%;
+}
+
+.place img {
+    height: 10px;
+    width: 0px;
+}
+
+.photo {
+    width: 80%;
+    height: 34.5vh;
+    margin-left: 12%;
+    margin-top: 2%;
+
+
+}
+
+.online {
+    height: 33vh;
+    width: 350px;
+    border-radius: 13px;
+}
+
+.order {
+    height: 22vh;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 13px;
+    background: url('/imgg/online.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.online h5 {
+    font-size: 1em;
+    font-weight: 500;
+    position: relative;
+    font-family: 'Poppins';
+    left: 2%;
+    top: 3%;
+}
+
+.online p {
+    position: relative;
+    left: 2%;
+    top: 3%;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: grey;
+}
+
+.dining {
+    height: 22vh;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 13px;
+    background: url('/imgg/dining.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.night {
+    height: 22vh;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 13px;
+    background: url('/imgg/night.png');
+    background-size: cover;
+    background-position: center;
+}
+
+th,
+td {
+    padding: 0 10px;
+}
